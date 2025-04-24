@@ -116,7 +116,7 @@ function App() {
           <div className="row">
             <div className="col-md-4">
               <div className="card project-card shadow-lg">
-              <img src="/assets/image_asset.jpg" alt="Project" className="card-img-top" />
+              <img src="/portfolio/assets/image_asset.jpg" alt="Project" className="card-img-top" />
               <div className="card-body">
                   <h5 className="card-title">Banking Application</h5>
                   <p className="card-text">Full-stack banking app built with Spring Boot and React.</p>
@@ -129,7 +129,7 @@ function App() {
         </Section>
 
         <Section title="Resume">
-          <a className="text-primary" href="/assets/Vinay.pdf" download>
+          <a className="text-primary" href="/portfolio/assets/Vinay.pdf" download>
             Download My Resume
           </a>
         </Section>

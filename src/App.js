@@ -54,7 +54,7 @@ function App() {
         transition={{ duration: 1 }}
       >
         <div className="overlay">
-          <h1 className="display-4 font-weight-bold text-white">V. Vinay Kumar</h1>
+          <h1 className="display-4 font-weight-bold text-white">Vainala. Vinay Kumar</h1>
           <p className="lead mt-2 text-white">Java | Spring Boot | React | AWS | Full Stack Developer</p>
           <div className="d-flex justify-content-center gap-4 mt-4 fs-2 text-primary">
             <a href="https://github.com/vainalavinay" target="_blank" rel="noopener noreferrer"><FaGithub /></a>

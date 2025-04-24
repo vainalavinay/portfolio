@@ -1,0 +1,118 @@
+/* App.css */
+
+
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Default light mode styles */
+body {
+  color: #2c3e50; /* Dark text for light mode */
+  background-color: #ffffff; /* White background for light mode */
+}
+
+h2, p, a {
+  transition: color 0.3s ease;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #2c3e50; /* Dark background for dark mode */
+  color: #ecf0f1; /* Light text color for dark mode */
+}
+
+.dark-mode .header-gradient {
+  background: linear-gradient(to right, #2c3e50, #34495e);
+}
+
+.dark-mode h2 {
+  color: #ecf0f1; /* White color for headings in dark mode */
+}
+
+.dark-mode .card, .dark-mode .card-body {
+  background-color: #34495e; /* Dark background for cards in dark mode */
+  color: #ecf0f1; /* White text for card content in dark mode */
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.skills-card, .project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills-card:hover, .project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 50px 0;
+}
+
+/* Specific styles for the text in sections */
+section p {
+  color: #2c3e50; /* Default dark text */
+}
+
+.dark-mode section p {
+  color: #ecf0f1; /* White text in dark mode */
+}
+
+.dark-mode .section h2 {
+  color: white;  /* Ensure section titles are white in dark mode */
+}
+
+/* Button and link colors in dark mode */
+.dark-mode .btn-light {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+}
+
+.dark-mode .text-muted {
+  color: #bdc3c7 !important; /* Lighter muted text color in dark mode */
+}
+
+.dark-mode .text-primary {
+  color: #3498db !important; /* Primary color for links and icons in dark mode */
+}
+
+/* For light mode */
+section p {
+  color: #2c3e50; /* Dark text for light mode */
+}
+
+section h2 {
+  color: #2c3e50; /* Dark headings for light mode */
+}
+
+a {
+  color: #3498db; /* Blue color for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.dark-mode a {
+  color: #ecf0f1; /* White link color in dark mode */
+}
+
+.dark-mode a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
